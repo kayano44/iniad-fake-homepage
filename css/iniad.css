@@ -10,7 +10,7 @@ h1 {
 
 h2 {
   width: 93%;
-  margin: auto;
+  margin: auto auto;
   font-size: 20px;
   color: #000000;
   border-bottom: solid 1px white;
@@ -24,7 +24,7 @@ h3 {
 
 p{
   width: 90%;
-  margin: auto;
+  margin: auto auto;
 }
 
 #schedule {
