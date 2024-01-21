@@ -9,6 +9,8 @@ h1 {
 }
 
 h2 {
+  width: 93%;
+  margin: auto;
   font-size: 20px;
   color: #000000;
   border-bottom: solid 1px white;
@@ -18,6 +20,11 @@ h3 {
   font-size: 18px;
   padding-left: 4px;
   border-left: solid 4px white;
+}
+
+p{
+  width: 90%;
+  margin: auto;
 }
 
 #schedule {
