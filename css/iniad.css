@@ -68,3 +68,23 @@ a:hover {
 a:visited {
   color: 	#70C1BA
 }
+
+#language-switcher {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#language-switcher ul {
+  display: inline;
+  list-style: none;
+}
+
+#language-switcher ul li {
+  display: inline;
+  margin-right: 5px;
+}
+
+#language-switcher a {
+  text-decoration: none;
+  color: #0055b7; 
+}
