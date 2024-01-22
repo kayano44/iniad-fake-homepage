@@ -88,3 +88,9 @@ a:visited {
   text-decoration: none;
   color: #0055b7; 
 }
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
