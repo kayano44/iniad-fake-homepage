@@ -51,9 +51,15 @@ p{
   width: 100%; 
   }
 
-.conceptimage{
+.image1{
   width: 200px;
   height: 200px;
+}
+
+.image2{
+  width: 100px;
+  height: 100px;
+  text-align: right;
 }
 
 a {
