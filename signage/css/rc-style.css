@@ -1,0 +1,21 @@
+.ac-sw-label {
+    display: flex;
+    align-items: center;
+}
+  
+.ac-sw input[type='checkbox'] {
+position: absolute;
+width: 0;
+height: 0;
+}
+
+.ac-sw-body {
+    width: 56px;
+    border-radius: 16px;
+    height: 32px;
+    background-color: #ddd;
+}
+
+input:checked ~ .ac-sw-body {
+    background-color: rgb(100, 228, 245);
+}
