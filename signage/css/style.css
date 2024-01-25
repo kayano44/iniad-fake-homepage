@@ -98,3 +98,48 @@ footer {
 	text-align: center;
 }
 /*追加分*/
+.floors {
+	left: 0;
+	bottom: 70px;
+	background-color: #c5edff;
+	height: 1400PX;
+	width: 1080px;
+	margin: 0;
+	padding: 20px 0 50px 0;
+	text-align: center;
+}
+
+.floor-info {
+	font-size: 60px;
+	left: 0;
+	bottom: 0;
+	background-color: #8e8e8e;
+	height: 157px;
+	width: 1080px;
+	margin: 0;
+	padding: 30px 0 50px 0;
+	text-align: center;
+}
+
+.floor_map {
+	height: 747px;
+	width: 1080px;
+	background-color: #4797ff;
+}
+
+.present_floor {
+	left: 0;
+	bottom: 0;
+	background-color: #8e8e8e;
+	height: 100px;
+	width: 1080px;
+	margin: 0;
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+
+.control_panel {
+	height: 800px;
+	width: 1080px;
+	background-color: #ffef94;
+}
