@@ -98,3 +98,79 @@ footer {
 	text-align: center;
 }
 /*追加分*/
+.floors {
+	left: 0;
+	bottom: 70px;
+	background-color: #EEEEEE;
+	height: 1400PX;
+	width: 1080px;
+	margin: 0;
+	padding: 50px 0 0 0;
+}
+
+.container {
+	position: relative;
+	padding: 50px 0 0 200px;
+}
+
+.image1 {
+	width: 70%;	
+	height: 70%;
+	}
+
+.image2 {
+	width: 70%;	
+	height: 70%;
+	}
+
+.image3 {
+	width: 70%;	
+	height: 70%;
+	}
+
+.image4 {
+	width: 70%;	
+	height: 70%;
+	}
+
+.image5 {
+	width: 70%;	
+	height: 70%;
+	}
+
+.floor-info {
+	font-size: 60px;
+	left: 0;
+	bottom: 0;
+	color: white;
+	background-color: #666666;
+	height: 160px;
+	width: 1080px;
+	margin: 0;
+	padding: 30px 0 50px 0;
+	text-align: center;
+}
+
+.floor_map {
+	height: 747px;
+	width: 1080px;
+	background-color: #999999;
+}
+
+.present_floor {
+	left: 0;
+	bottom: 0;
+	color: white;
+	background-color: #666666;
+	height: 100px;
+	width: 1080px;
+	margin: 0;
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+
+.control_panel {
+	height: 800px;
+	width: 1080px;
+	background-color: #EEEEEE;
+}
