@@ -181,8 +181,8 @@ footer {
 }
 
 .ac-sw_label {
-display: flex;
-align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .light-sw_label {
@@ -191,9 +191,9 @@ align-items: center;
 }
 
 input[type='checkbox'] {
-position: absolute;
-width: 0;
-height: 0;
+	position: absolute;
+	width: 0;
+	height: 0;
 }
 
 .title {
@@ -201,15 +201,15 @@ height: 0;
 }
 
 .ac-sw-body {
-width: 56px;
-border-radius: 15px;
-height: 32px;
-background-color: #9fe7ff;
+	width: 56px;
+	border-radius: 15px;
+	height: 32px;
+	background-color: #9fe7ff;
 }
 
 input:checked ~ .ac-sw-body {
-background-color: rgb(0, 121, 168);
-transition: 0.5s;
+	background-color: rgb(0, 121, 168);
+	transition: 0.5s;
 }
 
 .light-sw-body {
@@ -220,26 +220,26 @@ transition: 0.5s;
 }
     
 input:checked ~ .light-sw-body {
-background-color: rgb(255, 205, 3);
-transition: 0.5s;
+	background-color: rgb(255, 205, 3);
+	transition: 0.5s;
 }
 
 .circle {
-position: absolute;
-top: 4px;
-left: 4px;
-width: 24px;
-height: 24px;
-border-radius: 12px;
-background-color: white;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	background-color: white;
 }
 
 input:checked ~ .circle {
-transform: translateX(100%);
+	transform: translateX(100%);
 }
 
 .sw {
-position: relative;
+	position: relative;
 }
 
 

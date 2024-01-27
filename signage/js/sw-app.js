@@ -11,3 +11,17 @@ lightCheckboxR1.addEventListener('click', () => {
   const lightTitleR1 = document.querySelector('.light-title-r1');
   lightTitleR1.textContent = lightCheckboxR1.checked ? 'ON' : 'OFF';
 });
+
+//会議室2
+const acCheckboxR2 = document.getElementById('ac-sw-r2');
+acCheckboxR2.addEventListener('click', () => {
+  const acTitleR2 = document.querySelector('.ac-title-r2');
+  acTitleR2.textContent = acCheckboxR2.checked ? 'ON' : 'OFF';
+});
+
+const lightCheckboxR2 = document.getElementById('light-sw-r2');
+lightCheckboxR2.addEventListener('click', () => {
+  const lightTitleR2 = document.querySelector('.light-title-r2');
+  lightTitleR2.textContent = lightCheckboxR2.checked ? 'ON' : 'OFF';
+});
+
