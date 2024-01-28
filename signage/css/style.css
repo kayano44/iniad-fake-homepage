@@ -65,6 +65,7 @@ header {
 	border-bottom: solid 1px #000;
 	/*position: absolute;*/
 	z-index: 99;
+	height: 120px;
 }
 header img {
 	height: 72px;
@@ -96,8 +97,23 @@ footer {
 	margin: 0;
 	padding: 20px 0 50px 0;
 	text-align: center;
+	height: 120px;
 }
 /*追加分*/
+.bldg-name {
+	background-color: #EEEEEE;
+	padding: 10px;
+	margin: 0;
+}
+
+.back-home {
+	background-color: #EEEEEE;
+	padding: 10px;
+	margin: 0;
+	text-align: right;
+}
+
+
 .floors {
 	left: 0;
 	bottom: 70px;
@@ -110,44 +126,44 @@ footer {
 
 .container {
 	position: relative;
-	padding: 50px 0 0 200px;
+	padding: 20px 75px 20px 150px;
 }
 
 .image1 {
-	width: 70%;	
-	height: 70%;
+	width: 80%;	
+	height: 80%;
 	}
 
 .image2 {
-	width: 70%;	
-	height: 70%;
+	width: 80%;	
+	height: 80%;
 	}
 
 .image3 {
-	width: 70%;	
-	height: 70%;
+	width: 80%;	
+	height: 80%;
 	}
 
 .image4 {
-	width: 70%;	
-	height: 70%;
+	width: 80%;	
+	height: 80%;
 	}
 
 .image5 {
-	width: 70%;	
-	height: 70%;
+	width: 80%;	
+	height: 80%;
 	}
 
 .floor-info {
-	font-size: 60px;
+	font-size: 50px;
 	left: 0;
 	bottom: 0;
 	color: white;
 	background-color: #666666;
-	height: 160px;
+	height: 200px;
 	width: 1080px;
 	margin: 0;
-	padding: 30px 0 50px 0;
+	padding: 20px 0 50px 0;
 	text-align: center;
 }
 
