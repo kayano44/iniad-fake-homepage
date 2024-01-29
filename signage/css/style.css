@@ -141,28 +141,28 @@ footer {
 
 .image2 {
 	position: absolute;
-	top: 200px;
+	top: 220px;
 	left: 150px;
 	z-index: 4;
 }
 
 .image3 {
 	position: absolute;
-	top: 400px;
+	top: 420px;
 	left: 150px;
 	z-index: 3;
 }
 
 .image4 {
 	position: absolute;
-	top: 600px;
+	top: 620px;
 	left: 150px;
 	z-index: 2;
 }
 
 .image5 {
 	position: absolute;
-	top: 800px;
+	top: 820px;
 	left: 150px;
 	z-index: 1; /* 最背面に */
 }

@@ -16,7 +16,7 @@
  </head>
  <body id="black">
   <!-- header -->
-  <div class="wrap">
+ <div class="wrap">
    <header class="cf">
     <!-- <img src="img_fixed/logo-b.png"> -->
    </header>
@@ -24,7 +24,7 @@
    <!-- contents -->
    <div class="bldg-name">
     <h1>TEAM D BUILDING</h1>
-    </div>
+   </div>
 
     <div class="back-home">
     <h1>HOME</h1>   <!-- この画面にHOME必要ですかね？ -->
@@ -32,13 +32,13 @@
 
     <!-- フロア表示 -->
     <div class="floors">
-       <div class="container_floor">
-            <img src="img/5f-off.png" alt="5F" class="image1">
-            <img src="img/4f-off.png" alt="4F" class="image2">
-            <img src="img/3f-off.png" alt="3F" class="image3">
-            <img src="img/2f-off.png" alt="2F" class="image4">
-            <img src="img/1f-off.png" alt="1F" class="image5">
-        </div>
+        <div class="container_floor">
+            <img src="img/5f-off.png" data-hover-src="img/5f-on.png" alt="5F" class="image1">
+            <img src="img/4f-off.png" data-hover-src="img/4f-on.png" alt="4F" class="image2">
+            <img src="img/3f-off.png" data-hover-src="img/3f-on.png" alt="3F" class="image3">
+            <img src="img/2f-off.png" data-hover-src="img/2f-on.png" alt="2F" class="image4">
+            <img src="img/1f-off.png" data-hover-src="img/1f-on.png" alt="1F" class="image5">
+          </div>
     </div>
 
     <!-- フロア情報 -->
@@ -50,10 +50,11 @@
    <footer>
     <!-- <img src="img_fixed/logo2-b.png" width="140px" height="60px"> -->
    </footer>
-  </div>
+ </div>
 
   <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/floor-on-off.js"></script>
  </body>
 </html>
