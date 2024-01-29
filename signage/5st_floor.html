@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="Pragma" content="no-cache" />
+ <meta http-equiv="cache-control" content="no-cache" />
+ <meta http-equiv="expires" content="0" />
+
+ <title>INIAD - Signage</title>
+
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+ <link href="css/font-awesome.min.css" rel="stylesheet">
+ <link href="css/style.css" rel="stylesheet">
+ <link href="css/signage.css" rel="stylesheet">
+ </head>
+ <body id="black">
+  <!-- header -->
+  <div class="wrap">
+   <header class="cf">
+    <!-- <img src="img_fixed/logo-b.png"> -->
+   </header>
+
+   <!-- contents -->
+   <div class="floor_map">
+        <div class="container_room">
+            <img src="img/会議室A-off.png" alt="会議室A" class="image-room-a">
+            <img src="img/会議室B-off.png" alt="会議室B" class="image-room-b">
+            <img src="img/会議室C-off.png" alt="会議室C" class="image-room-c">
+            <img src="img/会議室D-off.png" alt="会議室D" class="image-room-d">
+        </div>    
+    </div>
+
+    <!-- 表示中のフロア -->
+    <div class="present_floor">
+        <h1>5F</h1>
+    </div>
+
+    <!-- 管理パネル -->
+    <div class="control_panel_1f">
+        <!--会議室1フロアリモコン-->
+        <div class="floor-sw">
+            <span class="floor-name">会議室1</span>
+            <!--空調リモコン-->
+            <label for="ac-sw-r1" class="ac-sw_label">
+                <span class="sw-name">空調</span>
+                <div class="ac-sw sw">
+                    <input type="checkbox" id="ac-sw-r1"/>
+                    <div class="circle"></div>
+                    <div class="ac-sw-body"></div>
+                </div>
+                <span class="ac-title  ac-title-r1">OFF</span>
+            </label>
+            <!--照明リモコン-->
+            <label for="light-sw-r1" class="light-sw_label">
+                <span class="sw-name">照明</span>
+                <div class="light-sw sw">
+                    <input type="checkbox" id="light-sw-r1"/>
+                    <div class="circle"></div>
+                    <div class="light-sw-body"></div>
+                </div>
+                <span class="light-title light-title-r1">OFF</span>
+            </label>
+        </div>
+        <!--会議室2フロアリモコン-->
+        <div class="floor-sw">
+            <span class="floor-name">会議室2</span>
+            <!--空調リモコン-->
+            <label for="ac-sw-r2" class="ac-sw_label">
+                <span class="sw-name">空調</span>
+                <div class="ac-sw sw">
+                    <input type="checkbox" id="ac-sw-r2"/>
+                    <div class="circle"></div>
+                    <div class="ac-sw-body"></div>
+                </div>
+                <span class="ac-title  ac-title-r2">OFF</span>
+            </label>
+            <!--照明リモコン-->
+            <label for="light-sw-r2" class="light-sw_label">
+                <span class="sw-name">照明</span>
+                <div class="light-sw sw">
+                    <input type="checkbox" id="light-sw-r2"/>
+                    <div class="circle"></div>
+                    <div class="light-sw-body"></div>
+                </div>
+                <span class="light-title light-title-r2">OFF</span>
+            </label>
+        </div>
+    </div>       
+
+   <!-- footer -->
+   <footer>
+    <!-- <img src="img_fixed/logo2-b.png" width="140px" height="60px"> -->
+   </footer>
+  </div>
+
+  <!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/sw-app.js"></script>
+ </body>
+</html>
