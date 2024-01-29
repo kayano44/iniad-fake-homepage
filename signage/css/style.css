@@ -133,27 +133,32 @@ footer {
 
 .image1 {
 	position: relative;
-
+	top: 0;
+	left: 0;
 	}
 
 .image2 {
-	position: relative;
-
+	position: absolute;
+	top: 200px;
+	left: 150px;
 	}
 
 .image3 {
-	position: relative;
-
+	position: absolute;
+	top: 400px;
+	left: 150px;
 	}
 
 .image4 {
-	position: relative;
-
+	position: absolute;
+	top: 600px;
+	left: 150px;
 	}
 
 .image5 {
-	position: relative;
-
+	position: absolute;
+	top: 800px;
+	left: 150px;
 	}
 
 .floor-info {
