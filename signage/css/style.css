@@ -127,31 +127,33 @@ footer {
 .container {
 	position: relative;
 	padding: 20px 75px 20px 150px;
+	height: 1400PX;
+	width: 1080px;
 }
 
 .image1 {
-	width: 80%;	
-	height: 80%;
+	position: relative;
+
 	}
 
 .image2 {
-	width: 80%;	
-	height: 80%;
+	position: relative;
+
 	}
 
 .image3 {
-	width: 80%;	
-	height: 80%;
+	position: relative;
+
 	}
 
 .image4 {
-	width: 80%;	
-	height: 80%;
+	position: relative;
+
 	}
 
 .image5 {
-	width: 80%;	
-	height: 80%;
+	position: relative;
+
 	}
 
 .floor-info {
