@@ -180,6 +180,31 @@ footer {
 	background-color: #999999;
 }
 
+/*240129追加*/
+.image-room-a {
+	position: absolute;
+	top: 20;
+	left: 10;
+	}
+
+.image-room-b {
+	position: absolute;
+	top: 20px;
+	left: 492px;
+	}
+
+.image-room-c {
+	position: absolute;
+	top: 212px;
+	left: 150px;
+	}
+
+.image-room-d {
+	position: absolute;
+	top: 212px;
+	left: 492px;
+	}
+
 .present_floor {
 	left: 0;
 	bottom: 0;
