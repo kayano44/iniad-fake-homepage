@@ -318,4 +318,24 @@ input:checked ~ .circle {
 }
 
 
-/*-------------------------------*/
+/*---------------HOMEボタン----------------*/
+
+.back-index {
+	font-size: 40px;
+	background-color: #999999;
+	padding: 10px;
+	margin: 0;
+	text-align: right;
+}
+
+.back-index a {
+	align-items: center;
+	margin: 0 auto;
+	padding: 1em 2em;
+	width: 300px;
+	color: #000000;
+	font-size: 20px;
+	font-weight: 700;
+	background-color: #EEEEEE;
+	border-radius: 15px 15px 15px 15px;
+  }
