@@ -19,7 +19,7 @@ $(document).ready(function() {
             $(this).attr('src', $(this).data('original-src')); // 元の画像に戻す
             
             // h2タグのテキストを元に戻す
-            $(".floor-info h2").text(""); // 元の内容に戻す
+            $(".floor-info h2").text("会議室フロア"); // 元の内容に戻す
         }
     );
 
