@@ -23,12 +23,13 @@ $(document).ready(function() {
         }
     );
 
-    // フロア画像のクリックイベント
-    $('.container_floor img').click(function() {
+    // フロア画像のダブルクリックイベント
+    $('.container_floor img').dblclick(function() {
         // フロア画像のalt属性からフロア番号を取得
         var floorNumber = $(this).attr('alt').charAt(0);
         // 対応するフロアのHTMLファイルのパスを構築
-        var floorPath = floorNumber + 'st_floor.html';
+        var floorPath = floorNumber + 'st_floor.html'; // ここを適切なパスに修正してください
+
         // HTMLファイルへの移動
         window.location.href = floorPath;
     });
